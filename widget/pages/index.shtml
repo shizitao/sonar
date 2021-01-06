@@ -1,0 +1,45 @@
+<template>  
+    <view>
+        <text>Hello APP</text>
+    </view>  
+</template>  
+<script>
+    export default {  
+        name: 'ApiTest'
+    }
+</script>
+<template>  
+    <view class='header'>
+        <text>Hello APP</text>
+    </view>  
+</template>  
+<script>
+    export default {  
+        name: 'ApiTest'
+    }
+</script>
+<style>
+    .header{
+        height: 45px;
+    }
+</style>
+<template>  
+    <view class='header'>
+        <text>{this.data.title}</text>
+    </view>  
+</template>  
+<script>
+    export default {  
+        name: 'ApiTest',
+        data(){
+            return {
+                title: 'Hello APP'
+            }
+        }
+    }
+</script>
+<style>
+    .header{
+        height: 45px;
+    }
+</style>

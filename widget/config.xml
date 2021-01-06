@@ -1,0 +1,17 @@
+<widget id="A12345678901"  version="0.0.1">
+    <name>API Example</name>
+    <description>
+        声呐
+    </description>
+    <author email="carlbox@163.com" href="//sonar.ncoder.cn">
+        APICloud.SIR
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="windowBackground" value="#FFF" />
+    <preference name="fullScreen" value="true" />
+    <permission name="call" />
+    <feature name="weiXin">
+        <param name="urlScheme" value="wx7779c7c063a9d4d9" />
+    </feature>
+</widget>
